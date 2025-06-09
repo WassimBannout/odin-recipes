@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    color: darkslategrey
+}
+img {
+    display: block;
+    margin: auto;
+}
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 10% 0;
+    text-align: center
+}
+.navigation li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    background-color:darkgrey;
+    padding: 20px;
+}
+
+.navigation a {
+    color:black;
+    text-decoration: none;
+}
